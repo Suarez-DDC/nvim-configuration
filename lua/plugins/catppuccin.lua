@@ -55,7 +55,7 @@ require("catppuccin").setup({
 			transparent_panel = false,
 		},
 		neotree = {
-			enabled = false,
+			enabled = true,
 			show_root = true,
 			transparent_panel = false,
 		},

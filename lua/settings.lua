@@ -14,10 +14,12 @@ g.catppuccin_flavour = 'macchiato'
 -- UI settings
 vim.scriptencoding = 'utf-8'
 opt.encoding = 'utf-8'
+opt.clipboard = 'unnamedplus'
 opt.fileencoding = 'utf-8'
 
 opt.title = true
 opt.number = true
+opt.mouse = 'a'
 opt.relativenumber = true
 opt.autoindent = true
 opt.smartindent = true

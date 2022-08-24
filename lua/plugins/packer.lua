@@ -22,8 +22,18 @@ return require('packer').startup(function(use)
       "MunifTanjim/nui.nvim"
     },
   }
-
-
+  -- statusline Feline
+  --use 'feline-nvim/feline.nvim'
+  -- color bg hex,rgb,etc
+  use 'norcalli/nvim-colorizer.lua'
+  use {
+	"windwp/nvim-autopairs",
+    config = function() require("nvim-autopairs").setup {} end
+  }
+  use {
+  'nvim-lualine/lualine.nvim',
+  requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+  }
 
 
 
