@@ -11,4 +11,3 @@ require('plugins/neo-tree')
 require('plugins/lualine')
 require('plugins/nvim-colorizer')
 require('plugins/nvim-autopairs')
-

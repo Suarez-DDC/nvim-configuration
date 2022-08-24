@@ -5,16 +5,14 @@ local fn = vim.fn
 local g = vim.g
 local opt = vim.opt
 vim.cmd('autocmd!')
-vim.cmd [[colorscheme catppuccin]]
 
 -- General settings
 g.mapleader = ' ' 
-g.catppuccin_flavour = 'macchiato'
 
 -- UI settings
 vim.scriptencoding = 'utf-8'
 opt.encoding = 'utf-8'
-opt.clipboard = 'unnamedplus'
+--opt.clipboard:append {'unnamed, unnamedplus'}
 opt.fileencoding = 'utf-8'
 
 opt.title = true

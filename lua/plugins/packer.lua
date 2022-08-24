@@ -10,9 +10,11 @@ return require('packer').startup(function(use)
   -- Put this at the end after all plugins
   -- plugins manager 
   use 'wbthomason/packer.nvim'
+
   -- theme plugin
   use 'catppuccin/nvim'
-  -- file explorer 
+  
+  -- file explorer
   use {
   "nvim-neo-tree/neo-tree.nvim",
     branch = "v2.x",
@@ -24,21 +26,17 @@ return require('packer').startup(function(use)
   }
   -- statusline Feline
   --use 'feline-nvim/feline.nvim'
-  -- color bg hex,rgb,etc
+  -- Color bg hex,rgb,etc
   use 'norcalli/nvim-colorizer.lua'
+  -- Autopair
   use {
-	"windwp/nvim-autopairs",
-    config = function() require("nvim-autopairs").setup {} end
+        "windwp/nvim-autopairs",
+  config = function() require("nvim-autopairs").setup {} end
   }
   use {
   'nvim-lualine/lualine.nvim',
   requires = { 'kyazdani42/nvim-web-devicons', opt = true }
   }
-
-
-
-
-
 
 
 

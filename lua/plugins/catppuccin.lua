@@ -1,3 +1,6 @@
+vim.cmd [[colorscheme catppuccin]]
+vim.g.catppuccin_flavour = "macchiato"
+
 require("catppuccin").setup({
 	dim_inactive = {
 		enabled = false,
