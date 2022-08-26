@@ -7,7 +7,8 @@ require('keymaps')
 require('plugins/packer')                 --plugin manager
 require('plugins/catppuccin')             --color theme
 require('plugins/neo-tree')
---require('plugins/feline') 
 require('plugins/lualine')
 require('plugins/nvim-colorizer')
 require('plugins/nvim-autopairs')
+require('plugins/nvim-cmp')
+require('plugins/lspconfig')

@@ -24,8 +24,6 @@ return require('packer').startup(function(use)
       "MunifTanjim/nui.nvim"
     },
   }
-  -- statusline Feline
-  --use 'feline-nvim/feline.nvim'
   -- Color bg hex,rgb,etc
   use 'norcalli/nvim-colorizer.lua'
   -- Autopair
@@ -37,7 +35,23 @@ return require('packer').startup(function(use)
   'nvim-lualine/lualine.nvim',
   requires = { 'kyazdani42/nvim-web-devicons', opt = true }
   }
+  -- LSP
+ -- use 'neovim/nvim-lspconfig' -- Configurations for Nvim LSP
 
+   -- autocomplete
+  use {
+    'hrsh7th/nvim-cmp',
+    requires = {
+      'L3MON4D3/LuaSnip',
+      'hrsh7th/cmp-nvim-lsp',
+      'hrsh7th/cmp-path',
+      'hrsh7th/cmp-buffer',
+      'f3fora/cmp-spell',
+      'saadparwaiz1/cmp_luasnip',
+    },
+  }
+  use 'neovim/nvim-lspconfig' -- Configurations for Nvim LSP
 
+  
 
   end)
