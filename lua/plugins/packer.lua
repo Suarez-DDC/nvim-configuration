@@ -36,8 +36,9 @@ return require('packer').startup(function(use)
   requires = { 'kyazdani42/nvim-web-devicons', opt = true }
   }
   -- LSP
- -- use 'neovim/nvim-lspconfig' -- Configurations for Nvim LSP
-
+   use 'neovim/nvim-lspconfig'
+   use { "williamboman/mason.nvim" }
+  
    -- autocomplete
   use {
     'hrsh7th/nvim-cmp',
@@ -50,7 +51,6 @@ return require('packer').startup(function(use)
       'saadparwaiz1/cmp_luasnip',
     },
   }
-  use 'neovim/nvim-lspconfig' -- Configurations for Nvim LSP
 
   
 
