@@ -60,3 +60,4 @@ require'lspconfig'.sumneko_lua.setup {
 require'lspconfig'.cssls.setup{}
 require'lspconfig'.html.setup{}
 require'lspconfig'.intelephense.setup{}
+require'lspconfig'.marksman.setup{}

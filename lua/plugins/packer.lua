@@ -12,8 +12,9 @@ return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
 
   -- theme plugin
-  use 'catppuccin/nvim'
-  
+--  use 'catppuccin/nvim'
+    use 'shaunsingh/nord.nvim'
+
   -- file explorer
   use {
   "nvim-neo-tree/neo-tree.nvim",
